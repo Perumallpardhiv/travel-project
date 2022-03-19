@@ -58,7 +58,7 @@ export default function Recommend() {
 
 
   return (
-    <Section id="Recommend">
+    <Section id="recommend">
       <div className="title">
         <h2>Recommended Destinations</h2>
 
