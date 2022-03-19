@@ -56,11 +56,12 @@ export default function Recommend() {
     },
   ];
 
+
   return (
     <Section id="Recommend">
       <div className="title">
         <h2>Recommended Destinations</h2>
-      </div>
+
       <div className="destinations">
         {data.map((destination) => {
           return (
