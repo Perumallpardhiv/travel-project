@@ -7,42 +7,59 @@ export default function Testimonials() {
         <h2>FOUNDERS</h2>
       </div>
       <div className="testimonials">
-        <div className="testimonial">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            asperiores eaque.
-          </p>
+         <div className="testimonial">
           <div className="info">
-            <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Udaykumar</h4>
+              <span>Student</span>
             </div>
           </div>
         </div>
         <div className="testimonial">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            asperiores eaque.
-          </p>
           <div className="info">
-            <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Hari Prasad</h4>
+              <span>Student</span>
             </div>
           </div>
         </div>
         <div className="testimonial">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            asperiores eaque.
-          </p>
           <div className="info">
-            <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Perumall Pardhiv</h4>
+              <span>Student</span>
+            </div>
+          </div>
+        </div>
+        <div className="testimonial">
+          <div className="info">
+            <div className="details">
+              <h4>Kiranmaye</h4>
+              <span>Student</span>
+            </div>
+          </div>
+        </div>
+        <div className="testimonial">
+          <div className="info">
+            <div className="details">
+              <h4>Kathyayani</h4>
+              <span>Student</span>
+            </div>
+          </div>
+        </div>
+        <div className="testimonial">
+          <div className="info">
+            <div className="details">
+              <h4>Jyothika Avani</h4>
+              <span>Student</span>
+            </div>
+          </div>
+        </div>
+        <div className="testimonial">
+          <div className="info">
+            <div className="details">
+              <h4>Shreya</h4>
+              <span>Student</span>
             </div>
           </div>
         </div>
