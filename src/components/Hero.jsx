@@ -3,7 +3,7 @@ import styled from "styled-components";
 import homeImage from "../assets/hero.png";
 export default function Hero() {
   return (
-    <Section id="Hero">
+    <Section id="hero">
       <div className="background">
         <img src={homeImage} alt="" />
       </div>
