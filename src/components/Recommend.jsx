@@ -56,33 +56,11 @@ export default function Recommend() {
     },
   ];
 
-  const packages = [
-    "The Weekend Break",
-    "The Package Holiday",
-    "The Group Tour",
-    "Long Term Slow Travel",
-  ];
 
-  const [active, setActive] = useState(1);
   return (
     <Section id="Recommend">
       <div className="title">
         <h2>Recommended Destinations</h2>
-      </div>
-      <div className="packages">
-        <ul>
-          {packages.map((pkg, index) => {
-            return (
-              <li
-                className={active === index + 1 ? "active" : ""}
-                onClick={() => setActive(index + 1)}
-              >
-                {pkg}
-              </li>
-            );
-          })}
-        </ul>
-      </div>
       <div className="destinations">
         {data.map((destination) => {
           return (
